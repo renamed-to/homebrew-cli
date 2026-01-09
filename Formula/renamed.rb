@@ -6,23 +6,23 @@ class Renamed < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/v#{version}/renamed-darwin-arm64.tar.gz"
-      sha256 "22a421c4b93a3371d0b9d73a252220cb994c0c1957704a1677b8c5a09d3cea90"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.1.2/renamed-darwin-arm64.tar.gz"
+      sha256 "fc480154e152df5f2ae668a8bc75dfd724ac1ed4253777ee02ae0c636c06bd11"
     end
     on_intel do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/v#{version}/renamed-darwin-x64.tar.gz"
-      sha256 "a4fbda6191073f3993f6927b12b0124abadc6dc9a32cb314ed92fb1984acac21"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.1.2/renamed-darwin-x64.tar.gz"
+      sha256 "afa38b9b6ab4b62994fdd60449930ba9e80c7803cb6ef55b28ab646b7588ed79"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/v#{version}/renamed-linux-arm64.tar.gz"
-      sha256 "41967936b65d1efa775d530e82d72a955a8308102d52560cafb51b389cd7b4d3"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.1.2/renamed-linux-arm64.tar.gz"
+      sha256 "10dd7a25ceac4f1995ed97d60ad439b42d47792d22ec30f4e7ba363f99011a39"
     end
     on_intel do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/v#{version}/renamed-linux-x64.tar.gz"
-      sha256 "ccccd91361cd3ec3e7046ab5f65177628b25f7c418b26e213c4cc6a0d1303b3f"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.1.2/renamed-linux-x64.tar.gz"
+      sha256 "910b4c281ce4ebf07a107817ca043fd17cd08feb2dc9105b4592abb69b92431f"
     end
   end
 
