@@ -1,28 +1,28 @@
 class Renamed < Formula
   desc "AI-powered file renaming, PDF extraction, and document splitting CLI"
   homepage "https://renamed.to"
-  version "1.3.0"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.3.0/renamed-darwin-arm64.tar.gz"
-      sha256 "8553eb922bc3fe7d0ce5b5a1544c05585b78f7dac1ea82f61d275e790c9b5dac"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%400.1.4/renamed-darwin-arm64.tar.gz"
+      sha256 "2a331e1fd2e3522cd7aee4b97a5f067158e8550f560a2453e7e18112fd946b1d"
     end
     on_intel do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.3.0/renamed-darwin-x64.tar.gz"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%400.1.4/renamed-darwin-x64.tar.gz"
       sha256 "921c84f681edf177f6570671294bbb57b2e003c3bf703ab76864007adc001a48"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.3.0/renamed-linux-arm64.tar.gz"
-      sha256 "bce3981d49e6e0f561d4e3aa0e250467c8f04e2b64dec54ac3655662648c444f"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%400.1.4/renamed-linux-arm64.tar.gz"
+      sha256 "185d6bb7f0df1ef95fe549d212ee40cfb15dc591feff7758dfb0c17becfe900a"
     end
     on_intel do
-      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%401.3.0/renamed-linux-x64.tar.gz"
-      sha256 "d95220e8a4090a09dc8622a802abfebc9ff4794bd69fd16824c59badb846067d"
+      url "https://github.com/upspawn/cli.renamed.to/releases/download/%40renamed-to%2Fcli%400.1.4/renamed-linux-x64.tar.gz"
+      sha256 "b9d47b143ce8438a0cfaa718047428915cbe7367a38931854de30be8125d1767"
     end
   end
 
